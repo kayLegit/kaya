@@ -1,0 +1,44 @@
+.courses{
+    margin-top: 120px;
+    padding: 0 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.course-card{
+    padding: 14px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+.course-card img{
+    width: 100%;
+}
+.course-card h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.course-card p{
+    font-size: 14px;
+    margin-right: 40px;
+}
+.enrol{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+@media (max-width:776px) {
+    .courses{
+        margin-top: 120px;
+        display: grid;
+        row-gap: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .enrol{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}

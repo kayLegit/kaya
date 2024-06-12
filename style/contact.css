@@ -1,0 +1,16 @@
+.contact{
+    margin-top: 140px;
+    padding: 0 80px;
+}
+.contact h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact p {
+    font-size: 14px;
+}
+@media (max-width:776px) {
+    .contact{
+        padding: 0 10px;
+    }
+}
